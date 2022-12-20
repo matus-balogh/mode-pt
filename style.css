@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 2rem;
+  background-image: url(./edgar-chaparro-sHfo3WOgGTU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #ff0;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin: 3rem 0 0;
+  text-align: left;
+  line-height: 2rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin: 0 0 2rem;
+  text-align: left;
+  color: #ff0;
+}
+
+.services {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  border: 2px ff0;
+  border: 1px solid #ff0;
+  margin: 1rem;
+  padding: 1rem;
+  margin-left: 0;
+}
+
+@media (max-width: 600px) {
+  .services {
+    /* Stack the .service elements vertically */
+    flex-direction: column;
+    width: 1200px;
+  }
+}
+
+footer {
+  padding: 2rem;
+  background-color: #ff0;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
