@@ -64,7 +64,7 @@ section h2 {
   .services {
     /* Stack the .service elements vertically */
     flex-direction: column;
-    width: 1200px;
+    width: 500px;
   }
 }
 
